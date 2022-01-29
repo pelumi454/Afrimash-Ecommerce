@@ -105,49 +105,93 @@ const Homepage = () => {
               />
             </div>
           </PopularCategoryWrapper>
-          {/* Best seller section */}
-          <BestSellerCategoryWrapper>
-            <h1 className="home__best-seller-category-header">Best Sellers</h1>
-            <div className="row">
-              <BestSellers
-                itemImage={iphone11}
-                itemName="Iphone 11"
-                itemPrize="300"
-                fadedPrize="300"
-                itemPercentage="-30%"
-                fullRate={fullrating}
-                halfRate={halfrating}
-              />
-              <BestSellers
-                itemImage={refrigerator}
-                itemName="Refrigerator"
-                itemPrize="300"
-                fadedPrize="300"
-                itemPercentage="-30%"
-                fullRate={fullrating}
-                halfRate={halfrating}
-              />{" "}
-              <BestSellers
-                itemImage={iphone11}
-                itemName="Iphone 11"
-                itemPrize="300"
-                fadedPrize="300"
-                itemPercentage="-30%"
-                fullRate={fullrating}
-                halfRate={halfrating}
-              />{" "}
-              <BestSellers
-                itemImage={refrigerator}
-                itemName="Refrigerator"
-                itemPrize="300"
-                fadedPrize="300"
-                itemPercentage="-30%"
-                fullRate={fullrating}
-                halfRate={halfrating}
-              />
-            </div>
-          </BestSellerCategoryWrapper>
         </CustomContainer>
+
+        {/* Best seller section */}
+        <BestSellerCategoryWrapper>
+          <h1 className="home__best-seller-category-header">Best Seller</h1>
+          <div className="row home__bestseller p">
+            <BestSellers
+              itemImage={iphone11}
+              itemName="Iphone 11"
+              itemPrize="300"
+              fadedPrize="300"
+              itemPercentage="-30%"
+              fullRate={fullrating}
+              halfRate={halfrating}
+            />
+            <BestSellers
+              itemImage={refrigerator}
+              itemName="Refrigerator"
+              itemPrize="300"
+              fadedPrize="300"
+              itemPercentage="-30%"
+              fullRate={fullrating}
+              halfRate={halfrating}
+            />{" "}
+            <BestSellers
+              itemImage={iphone11}
+              itemName="Iphone 11"
+              itemPrize="300"
+              fadedPrize="300"
+              itemPercentage="-30%"
+              fullRate={fullrating}
+              halfRate={halfrating}
+            />{" "}
+            <BestSellers
+              itemImage={refrigerator}
+              itemName="Refrigerator"
+              itemPrize="300"
+              fadedPrize="300"
+              itemPercentage="-30%"
+              fullRate={fullrating}
+              halfRate={halfrating}
+            />
+          </div>
+        </BestSellerCategoryWrapper>
+
+        {/* Deal of the Day section */}
+        <BestSellerCategoryWrapper>
+          <h1 className="home__best-seller-category-header">Deal of the Day</h1>
+          <div className="row home__bestseller p">
+            <BestSellers
+              itemImage={iphone11}
+              itemName="Iphone 11"
+              itemPrize="300"
+              fadedPrize="300"
+              itemPercentage="-30%"
+              fullRate={fullrating}
+              halfRate={halfrating}
+            />
+            <BestSellers
+              itemImage={refrigerator}
+              itemName="Refrigerator"
+              itemPrize="300"
+              fadedPrize="300"
+              itemPercentage="-30%"
+              fullRate={fullrating}
+              halfRate={halfrating}
+            />{" "}
+            <BestSellers
+              itemImage={iphone11}
+              itemName="Iphone 11"
+              itemPrize="300"
+              fadedPrize="300"
+              itemPercentage="-30%"
+              fullRate={fullrating}
+              halfRate={halfrating}
+            />{" "}
+            <BestSellers
+              itemImage={refrigerator}
+              itemName="Refrigerator"
+              itemPrize="300"
+              fadedPrize="300"
+              itemPercentage="-30%"
+              fullRate={fullrating}
+              halfRate={halfrating}
+            />
+          </div>
+        </BestSellerCategoryWrapper>
       </CustomContainer>
     </div>
   );

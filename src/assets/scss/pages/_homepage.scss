@@ -11,12 +11,15 @@
     margin-bottom: 2.812rem;
     color: #2c3452;
   }
+  &__bestseller {
+    grid-gap: 50px;
+  }
   &__best-seller-category-header {
     font-family: Amiko;
     font-weight: 600;
     font-size: 1.75rem;
     line-height: 37px;
-    margin-bottom: 5.86rem;
+    margin-bottom: 2.86rem;
     color: #2c3452;
   }
 }

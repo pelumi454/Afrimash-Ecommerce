@@ -11,7 +11,7 @@ const BestSellers = ({
 }) => {
   const rating = [];
   return (
-    <div className="col-md-3">
+    <div className="col-md-3 best-seller-container">
       <div className="itemimage ">
         <img src={itemImage} alt="item-image" />
       </div>
