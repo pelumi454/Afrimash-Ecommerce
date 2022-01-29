@@ -41,15 +41,17 @@ margin-top: .4rem;
 
 
 const SearchBtn = styled.div`
-  background-color: rgba(23, 26, 32, 0.8);
-  height: 40px;
-  width: 256px;
-  color: white;
-  border-radius: 100px;
-  opacity: 0.85;
-  text-transform: uppercase;
-  font-size: 12px;
   cursor: pointer;
   text-align: center;
   margin: 8px;
+  font-family: IBM Plex Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 177px;
+  height: 47px;
+  background: #ef5e0d;
+  border-radius: 30px;
+  padding-top: .73rem;
 `;
