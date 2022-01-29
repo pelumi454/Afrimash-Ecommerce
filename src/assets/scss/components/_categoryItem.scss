@@ -19,3 +19,48 @@
     margin-bottom: 1.562rem;
   }
 }
+
+// best seller
+.h4 {
+  color: #2c3452;
+  font-family: Amiko;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+.itemimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemimage > img {
+  height: 200px;
+}
+.prize {
+  font-family: Amiko;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.faded-prize {
+  font-family: Amiko;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  // text-decoration-line: line-through;
+  color: #c5c5c5;
+}
+
+.item-percentage {
+  font-family: Amiko;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #45b75e;
+}
+.ratingwrapper {
+  margin-bottom: 2.03rem;
+}

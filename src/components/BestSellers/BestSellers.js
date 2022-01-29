@@ -11,17 +11,20 @@ const BestSellers = ({
 }) => {
   const rating = [];
   return (
-    <div>
-      <div className="itemimage">
+    <div className="col-md-3">
+      <div className="itemimage ">
         <img src={itemImage} alt="item-image" />
       </div>
-      <div className="item-description">
+      <div className="item-description mt-5">
         <div className="h4">{itemName}</div>
-        <div className="prize-wrapper">
-          <p> $ {itemPrize} </p>
-          <p className="text-sm-muted">
-            <del> {fadedPrize} </del>
+        <div className="prize-wrapper d-flex align-items-center">
+          <p className=" prize me-3"> $ {itemPrize} </p>
+          <p className="faded-prize">
+            <small className="me-3">
+              $ <s> {fadedPrize} </s>
+            </small>
           </p>
+          <p className="item-percentage">{itemPercentage}</p>
         </div>
         <div className="ratingwrapper">
           <img src={fullRate} alt="rate" />
