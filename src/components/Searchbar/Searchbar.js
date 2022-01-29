@@ -1,13 +1,17 @@
-import React from "react";
-import styled from "styled-components";
-
+import {
+  Wrapper,
+  SearchContainer,
+  SearchIconWrap,
+  SearchBtn,
+} from "../../assets/styled-components/styled-component";
+import searchIcon from "../../assets/images/searchIcon.svg";
 function Searchbar() {
   return (
     <div className="">
       <Wrapper>
         <SearchContainer>
           <SearchIconWrap>
-            <i class="bi bi-search"></i>
+            <img src={searchIcon} className="bi" alt="search-icon" />
             <input
               type="text"
               placeholder="Search anything"
@@ -22,5 +26,3 @@ function Searchbar() {
 }
 
 export default Searchbar;
-
-
