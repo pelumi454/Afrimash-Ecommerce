@@ -1,8 +1,8 @@
 import {
   Wrapper,
   SearchContainer,
-  SearchIconWrap,
   SearchBtn,
+  SearchWrapper,
 } from "../../assets/styled-components/styled-component";
 import searchIcon from "../../assets/images/searchIcon.svg";
 function Searchbar() {
@@ -10,14 +10,14 @@ function Searchbar() {
     <div className="">
       <Wrapper>
         <SearchContainer>
-          <SearchIconWrap>
+          <SearchWrapper>
             <img src={searchIcon} className="bi" alt="search-icon" />
             <input
               type="text"
               placeholder="Search anything"
               className="search-input"
             />
-          </SearchIconWrap>
+          </SearchWrapper>
           <SearchBtn>Search</SearchBtn>
         </SearchContainer>
       </Wrapper>

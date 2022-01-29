@@ -16,10 +16,11 @@ export const SearchContainer = styled.div`
   justify-content: space-between;
 `;
 
-export const SearchIconWrap = styled.div`
+export const SearchWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 `;
 
 export const SearchBtn = styled.div`
@@ -36,4 +37,14 @@ export const SearchBtn = styled.div`
   background: #ef5e0d;
   border-radius: 30px;
   padding-top: 0.73rem;
+`;
+
+// Homepage
+export const ItemCategoryWrapper = styled.div`
+  box-shadow: drop-shadow(0px 4px 20px rgba(201, 201, 201, 0.25));
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 20px;
+  margin-top: 64px;
 `;

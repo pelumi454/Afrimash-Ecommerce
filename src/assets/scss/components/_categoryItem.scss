@@ -1,0 +1,9 @@
+.categoryItem {
+  margin: 0.25rem 0;
+  padding: .5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  &__description {
+    display: flex;
+  }
+}
