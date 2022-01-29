@@ -8,7 +8,7 @@ function Searchbar() {
         <SearchContainer>
           <SearchIconWrap>
             <i class="bi bi-search"></i>
-            <input type="text" placeholder="search anything" className="search-input"/>
+            <input type="text" placeholder="Search anything" className="search-input"/>
           </SearchIconWrap>
           <SearchBtn>Search</SearchBtn>
         </SearchContainer>
@@ -36,6 +36,7 @@ const SearchIconWrap = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: .4rem;
 `
 
 
