@@ -48,6 +48,6 @@ export const ItemCategoryWrapper = styled.div`
   border-radius: 20px;
 `;
 export const PopularCategoryWrapper = styled.div`
-margin-top: 2rem;
+margin-top: 2.375rem;
 `;
 

@@ -1,9 +1,21 @@
 .categoryItem {
   margin: 0.25rem 0;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
   &__description {
     display: flex;
+  }
+}
+
+//  popular category single item
+.popularCategory {
+  &__title {
+    font-family: Amiko;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2c3452;
+    margin-top: 0.94rem;
+    margin-bottom: 1.562rem;
   }
 }

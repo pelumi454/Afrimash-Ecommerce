@@ -1,9 +1,15 @@
 import Searchbar from "../components/Searchbar/Searchbar";
 import SimpleSlider from "../components/Slider/Slider";
-import cartIcon from "../../public/images/cart-icon.svg";
-import { CustomContainer } from "../assets/styled-components/styled-component";
-import { ItemCategoryWrapper } from "../assets/styled-components/styled-component";
-import { PopularCategoryWrapper } from "../assets/styled-components/styled-component";
+import cartIcon from "../assets/images/cart-icon.svg";
+import electronics from "../assets/images/electronics-category.svg";
+import fashion from "../assets/images/fashion-category.svg";
+import phone from "../assets/images/phone-category.svg";
+import beauty from "../assets/images/beauty-category.svg";
+import {
+  CustomContainer,
+  ItemCategoryWrapper,
+  PopularCategoryWrapper,
+} from "../assets/styled-components/styled-component";
 import { CategoryItem } from "../components/CategoryItem/CategoryItem";
 import { PopularCategory } from "../components/PopularCategory/PopularCategory";
 
@@ -53,12 +59,45 @@ const Homepage = () => {
             <SimpleSlider />
           </div>
         </div>
-        <PopularCategoryWrapper>
-          <h1>Popular Categories</h1>
-                  <PopularCategory
-                //   popularCategoryImage={}/>
-                  />
-        </PopularCategoryWrapper>
+        <CustomContainer>
+          <PopularCategoryWrapper>
+            <h1 className="home__popular-category-header">
+              Popular Categories
+            </h1>
+            <div className="row">
+              <PopularCategory
+                popularCategoryImage={phone}
+                PopularCategoryName="Phones & Accessories"
+                className="col-md-2"
+              />
+              <PopularCategory
+                popularCategoryImage={phone}
+                PopularCategoryName="Phones & Accessories"
+                className="col-md-2"
+              />{" "}
+              <PopularCategory
+                popularCategoryImage={beauty}
+                PopularCategoryName="Health and Beauty"
+                className="col-md-2"
+              />{" "}
+              <PopularCategory
+                popularCategoryImage={fashion}
+                PopularCategoryName="Fashion"
+                className="col-md-2"
+              />
+              <PopularCategory
+                popularCategoryImage={electronics}
+                PopularCategoryName="Electronics"
+                className="col-md-2"
+              />
+              <PopularCategory
+                popularCategoryImage={electronics}
+                PopularCategoryName="Health and Beauty"
+                className="col-md-2"
+              />
+            </div>
+          </PopularCategoryWrapper>
+        </CustomContainer>
       </CustomContainer>
     </div>
   );
