@@ -46,5 +46,8 @@ export const ItemCategoryWrapper = styled.div`
   -webkit-box-shadow: 0 0 3px #ccc;
   box-shadow: 0 0 3px #ccc;
   border-radius: 20px;
-  margin-top: 64px;
 `;
+export const PopularCategoryWrapper = styled.div`
+margin-top: 2rem;
+`;
+

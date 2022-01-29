@@ -1,5 +1,29 @@
 .slider-section {
   background: rgba(190, 17, 233, 0.24);
   border-radius: 20px;
-  // width: 967px;
+  margin-top: 60px;
+  .slider-text-wrap {
+    padding: 75px 35px 30px 79px;
+  }
+  .show-now {
+    background: #ef5e0d;
+    border-radius: 30px;
+    padding: 12px 46px;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-top: 40px;
+  }
+  .slider-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #412c4e;
+  }
+  .slider-image {
+    padding: 34px 0px 0 0;
+    width: 347px;
+  }
 }

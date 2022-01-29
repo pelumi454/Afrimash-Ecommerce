@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import heroBg from "../../assets/images/hero-phone-bg.svg";
-import { CustomContainer } from "../../assets/styled-components/styled-component";
+import heroBg from "../../../public/images/hero-phone-bg.svg";
+// import { CustomContainer } from "../../assets/styled-components/styled-component";
 
 export default function SimpleSlider() {
   var settings = {
@@ -14,13 +14,13 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings}>
       <div className="slider-section">
-        <div className="">
-          <div className="">
-            <div className="h1">Shop the Latest Iphones</div>
-            <button className="btn-success rounded">Shop Now</button>
+        <div className=" d-flex ">
+          <div className="slider-text-wrap">
+            <div className="slider-text">Shop the Latest Iphones</div>
+            <button className="show-now">Shop Now</button>
           </div>
-          <div className="">
-            <img src={heroBg} alt="" />
+          <div className="slider-image-wrap">
+            <img src={heroBg} alt="" className="slider-image" />
           </div>
         </div>
       </div>

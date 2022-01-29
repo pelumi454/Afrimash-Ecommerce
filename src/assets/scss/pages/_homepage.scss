@@ -1,6 +1,10 @@
 .home {
   padding-top: 2.5rem;
-  &__hero--left-header {
-    width: 70%;
+  &__header {
+    width: 72%;
+  }
+  &__hero {
+    &__hero--right {
+    }
   }
 }
