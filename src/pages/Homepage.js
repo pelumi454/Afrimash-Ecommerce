@@ -9,6 +9,7 @@ import iphone11 from "../assets/images/iphone11.svg";
 import refrigerator from "../assets/images/refrigerator.svg";
 import fullrating from "../assets/images/fullrate.svg";
 import halfrating from "../assets/images/halfrate.svg";
+import EcommerceZone from "../components/Ecommerce/EcommerceZone";
 import {
   CustomContainer,
   ItemCategoryWrapper,
@@ -148,7 +149,10 @@ const Homepage = () => {
               halfRate={halfrating}
             />
           </div>
-        </BestSellerCategoryWrapper>
+              </BestSellerCategoryWrapper>
+              <div>
+                  <EcommerceZone/>
+              </div>
 
         {/* Deal of the Day section */}
         <BestSellerCategoryWrapper>
