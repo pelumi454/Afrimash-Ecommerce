@@ -55,4 +55,7 @@ export const BestSellerCategoryWrapper = styled.div`
 margin-top: 3.375rem;
 margin-left: 4rem;
 `
+export const EcommerceZoneWrapper = styled.div`
+margin-top: 4.6rem;
+`
 

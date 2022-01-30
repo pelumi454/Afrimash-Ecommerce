@@ -15,6 +15,7 @@ import {
   ItemCategoryWrapper,
   PopularCategoryWrapper,
   BestSellerCategoryWrapper,
+  EcommerceZoneWrapper
 } from "../assets/styled-components/styled-component";
 import { CategoryItem } from "../components/CategoryItem/CategoryItem";
 import { PopularCategory } from "../components/PopularCategory/PopularCategory";
@@ -144,9 +145,9 @@ const Homepage = () => {
             />
           </div>
         </BestSellerCategoryWrapper>
-        <div>
+        <EcommerceZoneWrapper>
           <EcommerceZone />
-        </div>
+        </EcommerceZoneWrapper>
 
         {/* Deal of the Day section */}
         <BestSellerCategoryWrapper>
