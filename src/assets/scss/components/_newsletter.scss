@@ -1,0 +1,63 @@
+.newsletter {
+  background: linear-gradient(91.62deg, #ef5e0d 26.96%, #f03800 85.31%);
+  &__header {
+    font-family: Amiko;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    color: #ffffff;
+  }
+  &__subtext {
+    font-family: Amiko;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.005em;
+    color: #ffffff;
+  }
+  &__input-container {
+    width: 539px;
+    height: 53px;
+    background: #fffefe;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.37rem;
+    // padding-left: .3rem;
+    // padding-right: .3rem;
+  }
+  &__input {
+    border: none;
+    outline: none;
+    height: 29px;
+    padding-left: 0.7rem;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    font-family: Amiko;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(154, 154, 154, 0.74);
+  }
+  &__suscribe-btn {
+    width: 160px;
+    height: 41px;
+    background: #ef5e0d;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-family: Amiko;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 0.5rem;
+  }
+  &__follow-us-text {
+    font-family: Amiko;
+    font-size: 14px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+}
+.bi {
+    border-radius: 50%;
+    background: rgba(6, 6, 6, 0.08);
+    color: #fff;
+}

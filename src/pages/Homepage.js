@@ -20,6 +20,7 @@ import {
 import { CategoryItem } from "../components/CategoryItem/CategoryItem";
 import { PopularCategory } from "../components/PopularCategory/PopularCategory";
 import BestSellers from "../components/BestSellers/BestSellers";
+import Newsletter from "../components/Newsletter/Newsletter";
 
 const Homepage = () => {
   return (
@@ -192,6 +193,9 @@ const Homepage = () => {
           </div>
         </BestSellerCategoryWrapper>
       </CustomContainer>
+      <div>
+        <Newsletter />
+      </div>
     </div>
   );
 };
