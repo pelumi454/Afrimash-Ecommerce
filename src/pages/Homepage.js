@@ -77,32 +77,26 @@ const Homepage = () => {
               <PopularCategory
                 popularCategoryImage={phone}
                 PopularCategoryName="Phones & Accessories"
-                // className="col-md-2"
               />
               <PopularCategory
                 popularCategoryImage={phone}
                 PopularCategoryName="Phones & Accessories"
-                // className="col-md-2"
               />{" "}
               <PopularCategory
                 popularCategoryImage={beauty}
                 PopularCategoryName="Health and Beauty"
-                // className="col-md-2"
               />{" "}
               <PopularCategory
                 popularCategoryImage={fashion}
                 PopularCategoryName="Fashion"
-                // className="col-md-2"
               />
               <PopularCategory
                 popularCategoryImage={electronics}
                 PopularCategoryName="Electronics"
-                // className="col-md-2"
               />
               <PopularCategory
                 popularCategoryImage={electronics}
                 PopularCategoryName="Health and Beauty"
-                // className="col-md-2"
               />
             </div>
           </PopularCategoryWrapper>
@@ -149,10 +143,10 @@ const Homepage = () => {
               halfRate={halfrating}
             />
           </div>
-              </BestSellerCategoryWrapper>
-              <div>
-                  <EcommerceZone/>
-              </div>
+        </BestSellerCategoryWrapper>
+        <div>
+          <EcommerceZone />
+        </div>
 
         {/* Deal of the Day section */}
         <BestSellerCategoryWrapper>

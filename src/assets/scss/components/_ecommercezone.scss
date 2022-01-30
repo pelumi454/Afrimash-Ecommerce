@@ -8,8 +8,24 @@
   border-radius: 30px;
 
   &__main-description {
+    margin-top: 4rem;
+    margin-left: 6rem;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
+  }
+  &__header {
+    font-family: Amiko;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 85px;
+    color: #ffffff;
+  }
+  &__subtext {
+    font-family: Amiko;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
   }
 }
