@@ -18,7 +18,7 @@
   }
   @include media-breakpoint-down(lg) {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   }
   &__header {
@@ -62,4 +62,21 @@
 
 .moreCat > i {
   padding: 0px 8px 12px 0;
+}
+
+.justify-content-end {
+ @include media-breakpoint-down(sm) {
+    justify-content: start!important;
+    width: 100%;
+
+  }
+  @include media-breakpoint-down(md) {
+    justify-content: start!important;
+    width: 100%;
+
+  }
+  @include media-breakpoint-down(lg) {
+    justify-content: start!important;
+    width: 85%;
+  }
 }

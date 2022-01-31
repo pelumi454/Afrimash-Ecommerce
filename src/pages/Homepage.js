@@ -38,7 +38,7 @@ const Homepage = () => {
   return (
     <div className="home">
       <CustomContainer>
-        <div className="d-flex justify-content-end">
+        <div className="d-flex justify-content-end search-container">
           <div className="home__header  row">
             <div className="col-md-10 col-10 col-sm-12">
               <Searchbar />

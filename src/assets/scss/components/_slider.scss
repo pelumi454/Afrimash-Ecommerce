@@ -3,6 +3,13 @@
   border-radius: 20px;
   .slider-text-wrap {
     padding: 75px 35px 30px 79px;
+    @media screen and (max-width: 768px){
+    padding:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   }
   .show-now {
     background: #ef5e0d;
@@ -20,9 +27,15 @@
     font-size: 54px;
     line-height: 80px;
     color: #412c4e;
-     @media screen and (max-width: 768px){
+     @media screen and (max-width: 500px){
     margin-left: 0rem!important;
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 35px;
+    width: 100%;
+  }
+     @media screen and (min-width: 500px) and (max-width: 768px){
+    margin-left: 0rem!important;
+    font-size: 28px;
     line-height: 35px;
     width: 100%;
   }
@@ -34,6 +47,9 @@
 }
 .slider-image-wrap{
   margin-top: 2rem;
+   @media screen and (max-width: 600px){
+   display: none;
+  }
 }
 
 .slick-dots li button::before {
