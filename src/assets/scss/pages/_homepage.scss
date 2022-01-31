@@ -1,14 +1,25 @@
-// @import "../../../../node_modules/bootstrap/scss/mixins/_breakpoints";
 
 .home {
   padding-top: 2.5rem;
-  // @include media-breakpoint-down(lg) {
-  //   width: 350px;
-  // }
+  @include media-breakpoint-down(lg) {
+    // width: 350px;
+  }
 
   @media screen and (min-width: 2000px) {
     width: 1440px;
     margin: auto;
+  }
+  &__hero--right {
+    @include media-breakpoint-down(sm) {
+    width: 100%
+  }
+  @include media-breakpoint-down(md) {
+    width: 80%
+  }
+  @include media-breakpoint-down(lg) {
+    width: 100%;
+    margin-top: 3rem;
+  }
   }
   &__header {
     width: 72%;
@@ -35,10 +46,12 @@
 }
 .slider {
   width: 70%;
+  @media screen and (max-width: 768px){
+    margin-left: 0rem!important;
+    width: 100%;
+    margin-top: 2rem;
+  }
 }
-// .search-ssm {
-//   justify-content: start!important;
-// }
 
 .moreCat {
   color: red;

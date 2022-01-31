@@ -1,11 +1,12 @@
 //bootstrap 5
-// @import "../node_modules/bootstrap/scss/bootstrap";
-// @import "../node_modules/bootstrap/scss/mixins";
-// @import "node_modules/bootstrap/scss/mixins/_breakpoints";
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap");
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/mixins/breakpoints";
 
 // components
 @import "../src/assets/scss/components/searchbar";

@@ -20,6 +20,12 @@
     font-size: 54px;
     line-height: 80px;
     color: #412c4e;
+     @media screen and (max-width: 768px){
+    margin-left: 0rem!important;
+    font-size: 25px;
+    line-height: 35px;
+    width: 100%;
+  }
   }
   .slider-image {
     padding: .7rem 2.3rem 1.5rem 0;

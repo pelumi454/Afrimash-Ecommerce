@@ -10,7 +10,7 @@ const BestSellers = ({
   halfRate,
 }) => {
   return (
-    <div className="col-md-3 best-seller-container">
+    <div className="col-md-3 best-seller-container col-sm-12">
       <div className="itemimage ">
         <img src={itemImage} alt="item" />
       </div>

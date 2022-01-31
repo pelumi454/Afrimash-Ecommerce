@@ -107,7 +107,7 @@ const Homepage = () => {
               <i className="bi bi-plus-lg"></i>
             </div>
           </ItemCategoryWrapper>
-          <div className="home__hero--right col-md-8 ms-5 col-sm-12 slider">
+          <div className="home__hero--right col-md-8 ms-5 slider">
             <SimpleSlider />
           </div>
         </div>
