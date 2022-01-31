@@ -38,12 +38,12 @@ const Homepage = () => {
   return (
     <div className="home">
       <CustomContainer>
-        <div className="d-flex justify-content-end search-container">
-          <div className="home__header  row">
-            <div className="col-md-10 col-10 col-sm-12">
+        <div className="d-flex justify-content-end  search-container">
+          <div className="home__header">
+            <div className="">
               <Searchbar />
             </div>
-            <div className="col-md-2 d-flex align-items-center justify-content-left">
+            <div className=" d-flex align-items-center">
               <img src={cartIcon} alt="cart-icon" />
             </div>
           </div>
@@ -149,7 +149,7 @@ const Homepage = () => {
         {/* Best seller section */}
         <BestSellerCategoryWrapper>
           <h1 className="home__best-seller-category-header">Best Seller</h1>
-          <div className="row home__bestseller p">
+          <div className="home__bestseller ">
             <BestSellers
               itemImage={iphone11}
               itemName="Iphone 11"

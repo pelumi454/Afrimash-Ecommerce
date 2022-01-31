@@ -20,6 +20,9 @@
     font-size: 48px;
     line-height: 85px;
     color: #ffffff;
+    @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
   }
   &__subtext {
     font-family: Amiko;
@@ -27,5 +30,10 @@
     font-size: 18px;
     line-height: 29px;
     color: #ffffff;
+  }
+  &__ezone-image {
+    @media screen and (max-width: 768px) {
+    display: none;
+  }
   }
 }

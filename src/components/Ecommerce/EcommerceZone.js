@@ -11,7 +11,7 @@ const EcommerceZone = () => {
         </p>
       </div>
       <div>
-        <img src={EzoneImage} alt="" />
+        <img src={EzoneImage} alt="" className="ecommerce-zone__ezone-image" />
       </div>
     </div>
   );

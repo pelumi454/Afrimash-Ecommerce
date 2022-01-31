@@ -1,4 +1,3 @@
-
 .home {
   padding-top: 2.5rem;
   @include media-breakpoint-down(lg) {
@@ -11,18 +10,19 @@
   }
   &__hero--right {
     @include media-breakpoint-down(sm) {
-    width: 100%
-  }
-  @include media-breakpoint-down(md) {
-    width: 80%
-  }
-  @include media-breakpoint-down(lg) {
-    width: 100%;
-    margin-top: 2rem;
-  }
+      width: 100%;
+    }
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+    @include media-breakpoint-down(lg) {
+      width: 100%;
+      margin-top: 2rem;
+    }
   }
   &__header {
-    width: 72%;
+    display: flex;
+    grid-gap: 20px;
   }
   &__popular-category-header {
     font-family: Amiko;
@@ -33,7 +33,10 @@
     color: #2c3452;
   }
   &__bestseller {
-    grid-gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // grid-gap: 20px;
   }
   &__best-seller-category-header {
     font-family: Amiko;
@@ -46,10 +49,8 @@
 }
 .slider {
   width: 70%;
-  @media screen and (max-width: 768px){
-    margin-left: 0rem!important;
-    width: 100%;
-    margin-top: 2rem;
+  @media screen and (max-width: 800px) {
+    display: none;
   }
 }
 
@@ -65,18 +66,30 @@
 }
 
 .justify-content-end {
- @include media-breakpoint-down(sm) {
-    justify-content: start!important;
+  @include media-breakpoint-down(sm) {
+    justify-content: start !important;
     width: 100%;
-
   }
   @include media-breakpoint-down(md) {
-    justify-content: start!important;
+    justify-content: start !important;
     width: 100%;
-
   }
   @include media-breakpoint-down(lg) {
-    justify-content: start!important;
+    justify-content: start !important;
     width: 85%;
   }
 }
+
+// .align-items-center {
+//   @include media-breakpoint-down(sm) {
+//     display: flex !important;
+//   }
+//   @include media-breakpoint-down(md) {
+//     justify-content: start !important;
+//     width: 100%;
+//   }
+//   @include media-breakpoint-down(lg) {
+//     justify-content: start !important;
+//     width: 85%;
+//   }
+// }

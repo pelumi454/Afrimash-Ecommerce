@@ -16,7 +16,7 @@
   &__title {
     font-size: 16px;
     font-family: Amiko;
-    line-height: 24px
+    line-height: 24px;
   }
 }
 
@@ -42,15 +42,8 @@
   box-shadow: 0px 4px 20px rgba(233, 238, 245, 0.25);
   border-radius: 15px;
   margin-bottom: 2.03rem;
-  width: 21%;
-  grid-gap: 40px;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  @media screen and (max-width: 768px) {
-    // width: 100%;
-    // grid-gap: 20px;
-    // margin-left: 2.5rem;
-  }
 }
 .h4 {
   color: #2c3452;
@@ -64,9 +57,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 18px;
 }
 .itemimage > img {
   height: 200px;
+  @media screen and (max-width: 768px) {
+    height: 100px;
+  }
 }
 .prize {
   font-family: Amiko;

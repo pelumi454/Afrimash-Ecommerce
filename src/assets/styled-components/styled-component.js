@@ -4,14 +4,13 @@ export const CustomContainer = styled.section`
   padding: 0 2.875rem;
 `;
 export const Wrapper = styled.div`
-  width: 100%;
+  width: 796px;
   height: 64px;
   border: 0.6px solid #b7abab;
   box-sizing: border-box;
   border-radius: 30px;
-  @media (max-width: 768px) {
-    width: 200%;
-    justify-content: start;
+  @media (max-width: 886px) {
+    width: 100%;
   }
 `;
 
