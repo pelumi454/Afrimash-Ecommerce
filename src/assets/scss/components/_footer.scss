@@ -1,4 +1,8 @@
 .footer {
+  &__container {
+    width: 90%;
+    margin: auto;
+  }
   &__description {
     font-family: Amiko;
     font-style: normal;
@@ -6,13 +10,49 @@
     font-size: 14px;
     line-height: 29px;
     color: #383838;
+    margin-top: 2.3rem;
   }
-&__about-us {
+  &__about-us {
     font-family: Amiko;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 29px;
     color: #383838;
+    margin-top: 2rem;
+  }
+ 
+  &__free-delivery-section {
+    width: 93%;
+    margin: 4rem auto auto auto;
+    padding: 1rem;
+  }
+  &__delivery-header {
+    font-family: Amiko;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 29px;
+  }
+  &__delivery-subtext {
+    font-family: Amiko;
+    font-size: 14px;
+    line-height: 29px;
+    color: #7a7878;
+  }
+  &__copyright {
+    font-family: Amiko;
+    font-size: 12px;
+    line-height: 29px;
+    color: #3c3c3c;
+  }
 }
+
+// .border-line {
+//   width: 33px;
+//   height: 2px;
+//   background: #f03800;
+//   border-radius: 30px;
+// }
+hr {
+  border: 0.3px solid #c0c0c0;
 }

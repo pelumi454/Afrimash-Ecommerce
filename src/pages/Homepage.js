@@ -197,9 +197,7 @@ const Homepage = () => {
       <div>
         <Newsletter />
       </div>
-      <CustomContainer>
         <Footer/>
-      </CustomContainer>
     </div>
   );
 };
