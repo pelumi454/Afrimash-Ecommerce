@@ -3,6 +3,7 @@
   padding: 0.5rem 0.2rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   cursor: pointer;
 
   &__description {
@@ -11,6 +12,11 @@
   &__icon {
     padding-right: 0.5rem;
     width: 30px;
+  }
+  &__title {
+    font-size: 16px;
+    font-family: Amiko;
+    line-height: 24px;
   }
 }
 

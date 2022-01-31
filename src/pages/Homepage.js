@@ -30,7 +30,6 @@ import clothes from "../assets/images/clothes-icon.png";
 import watches from "../assets/images/watches-icon.png";
 import health from "../assets/images/healthandbeauty.png";
 import kids from "../assets/images/kids-icon.png";
-import plusIcon from "../assets/images/plus-icon.png";
 import shoes from "../assets/images/shoes-icon.png";
 import sports from "../assets/images/sport-icon.png";
 import jewelleries from "../assets/images/jewelleries-icon.png";
@@ -54,7 +53,7 @@ const Homepage = () => {
           <ItemCategoryWrapper className="home__hero--right col-md-3 col-3 col-sm-12">
             <CategoryItem
               categoryIcon={womenIcon}
-              title="woman's"
+              title="Woman's"
               chevronRight={chevron}
             />
             <CategoryItem
@@ -69,38 +68,43 @@ const Homepage = () => {
             />
             <CategoryItem
               categoryIcon={accessories}
-              title="accessories"
+              title="Accessories"
               chevronRight={chevron}
             />
             <CategoryItem
               categoryIcon={clothes}
-              title="clothing"
+              title="Clothing"
+              chevronRight={chevron}
+            />
+            <CategoryItem
+              categoryIcon={shoes}
+              title="Shoes"
               chevronRight={chevron}
             />
             <CategoryItem
               categoryIcon={watches}
-              title="watches"
+              title="Watches"
               chevronRight={chevron}
             />{" "}
             <CategoryItem
               categoryIcon={jewelleries}
-              title="jewelleries"
+              title="Jewelleries"
               chevronRight={chevron}
             />
             <CategoryItem
               categoryIcon={health}
-              title="health and beauty"
+              title="Health and Beauty"
               chevronRight={chevron}
             />
             <CategoryItem
               categoryIcon={sports}
-              title="sports"
+              title="Sports"
               chevronRight={chevron}
             />
             <hr />
             <div className="moreCat">
               <p>More Categories</p>
-              <i class="bi bi-plus-lg"></i>
+              <i className="bi bi-plus-lg"></i>
             </div>
           </ItemCategoryWrapper>
           <div className="home__hero--right col-md-8 ms-5 col-sm-12 slider">

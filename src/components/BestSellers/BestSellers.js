@@ -9,7 +9,6 @@ const BestSellers = ({
   fullRate,
   halfRate,
 }) => {
-  const rating = [];
   return (
     <div className="col-md-3 best-seller-container">
       <div className="itemimage ">
@@ -36,5 +35,3 @@ const BestSellers = ({
 };
 
 export default BestSellers;
-
-

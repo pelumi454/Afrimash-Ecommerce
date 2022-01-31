@@ -10,7 +10,7 @@ export const PopularCategory = ({
         <img
           className="popularCategory__icon"
           src={popularCategoryImage}
-          alt="image-popular-category"
+          alt="popular-category"
         />
         <div className="popularCategory__title text-sm-center text-nowrap">
           {PopularCategoryName}
