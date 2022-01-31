@@ -195,7 +195,7 @@ const Homepage = () => {
         {/* Deal of the Day section */}
         <BestSellerCategoryWrapper>
           <h1 className="home__best-seller-category-header">Deal of the Day</h1>
-          <div className="row home__bestseller p">
+          <div className=" home__bestseller">
             <BestSellers
               itemImage={iphone11}
               itemName="Iphone 11"

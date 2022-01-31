@@ -14,9 +14,9 @@ const BestSellers = ({
       <div className="itemimage ">
         <img src={itemImage} alt="item" />
       </div>
-      <div className="item-description mt-5">
+      <div className="item-description p-1 mt-5">
         <div className="h4">{itemName}</div>
-        <div className="prize-wrapper d-flex ">
+        <div className="prize-wrapper p-1 d-flex  align-items-center ">
           <p className=" prize me-3"> $ {itemPrize} </p>
           <p className="faded-prize">
             <small className="me-3">
