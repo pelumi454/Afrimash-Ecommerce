@@ -6,6 +6,9 @@
   background: url(../../images/purpleblub.svg);
   background-size: cover;
   border-radius: 30px;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
 
   &__main-description {
     margin-top: 4.5rem;
@@ -21,8 +24,8 @@
     line-height: 85px;
     color: #ffffff;
     @media screen and (max-width: 768px) {
-    font-size: 12px;
-  }
+      font-size: 12px;
+    }
   }
   &__subtext {
     font-family: Amiko;
@@ -33,7 +36,7 @@
   }
   &__ezone-image {
     @media screen and (max-width: 768px) {
-    display: none;
-  }
+      display: none;
+    }
   }
 }
