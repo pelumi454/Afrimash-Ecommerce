@@ -12,7 +12,7 @@ const BestSellers = ({
   return (
     <div className="col-md-3 best-seller-container">
       <div className="itemimage ">
-        <img src={itemImage} alt="item-image" />
+        <img src={itemImage} alt="item" />
       </div>
       <div className="item-description mt-5">
         <div className="h4">{itemName}</div>
