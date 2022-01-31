@@ -9,6 +9,10 @@ export const Wrapper = styled.div`
   border: 0.6px solid #b7abab;
   box-sizing: border-box;
   border-radius: 30px;
+  @media (max-width: 768px) {
+    width: 200%;
+    justify-content: start;
+  }
 `;
 
 export const SearchContainer = styled.div`
@@ -46,19 +50,20 @@ export const ItemCategoryWrapper = styled.div`
   -webkit-box-shadow: 0 0 3px #ccc;
   box-shadow: 0 0 3px #ccc;
   border-radius: 20px;
+  height: fit-content;
 `;
 export const PopularCategoryWrapper = styled.div`
-margin-top: 2.375rem;
+  margin-top: 2.375rem;
 `;
 
 export const BestSellerCategoryWrapper = styled.div`
-margin-top: 3.375rem;
-margin-left: 4rem;
-`
+  margin-top: 3.375rem;
+  margin-left: 4rem;
+`;
 export const EcommerceZoneWrapper = styled.div`
-margin-top: 4.6rem;
-`
-// Newsletter 
+  margin-top: 4.6rem;
+`;
+// Newsletter
 export const InputContainer = styled.div`
   width: 100%;
   height: 53px;
@@ -67,7 +72,7 @@ export const InputContainer = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 0.37rem;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
 `;
 
 export const SuscribeBtn = styled.div`
@@ -82,6 +87,5 @@ export const SuscribeBtn = styled.div`
   font-size: 18px;
   margin-right: 0.5rem;
   text-align: center;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 `;
-

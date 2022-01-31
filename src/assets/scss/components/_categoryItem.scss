@@ -1,11 +1,21 @@
 .categoryItem {
   margin: 0.25rem 0;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.2rem;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+
   &__description {
     display: flex;
   }
+  &__icon {
+    padding-right: 0.5rem;
+    width: 30px;
+  }
+}
+
+.categoryItem__title:hover {
+  color: red;
 }
 
 //  popular category single item

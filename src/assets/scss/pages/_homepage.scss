@@ -26,3 +26,17 @@
 .slider {
   width: 70%;
 }
+// .search-ssm {
+//   justify-content: start!important;
+// }
+
+.moreCat {
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moreCat > i {
+  padding: 0px 8px 12px 0;
+}

@@ -5,7 +5,6 @@ import electronics from "../assets/images/electronics-category.svg";
 import fashion from "../assets/images/fashion-category.svg";
 import phone from "../assets/images/phone-category.svg";
 import beauty from "../assets/images/beauty-category.svg";
-import women from "../assets/images/women.png";
 import iphone11 from "../assets/images/iphone11.svg";
 import refrigerator from "../assets/images/refrigerator.svg";
 import fullrating from "../assets/images/fullrate.svg";
@@ -16,13 +15,25 @@ import {
   ItemCategoryWrapper,
   PopularCategoryWrapper,
   BestSellerCategoryWrapper,
-  EcommerceZoneWrapper
+  EcommerceZoneWrapper,
 } from "../assets/styled-components/styled-component";
 import { CategoryItem } from "../components/CategoryItem/CategoryItem";
 import { PopularCategory } from "../components/PopularCategory/PopularCategory";
 import BestSellers from "../components/BestSellers/BestSellers";
 import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
+import menIcon from "../assets/images/men.png";
+import womenIcon from "../assets/images/women.png";
+import chevron from "../assets/images/chevron.png";
+import accessories from "../assets/images/accessories.png";
+import clothes from "../assets/images/clothes-icon.png";
+import watches from "../assets/images/watches-icon.png";
+import health from "../assets/images/healthandbeauty.png";
+import kids from "../assets/images/kids-icon.png";
+import plusIcon from "../assets/images/plus-icon.png";
+import shoes from "../assets/images/shoes-icon.png";
+import sports from "../assets/images/sport-icon.png";
+import jewelleries from "../assets/images/jewelleries-icon.png";
 
 const Homepage = () => {
   return (
@@ -30,7 +41,7 @@ const Homepage = () => {
       <CustomContainer>
         <div className="d-flex justify-content-end">
           <div className="home__header  row">
-            <div className="col-md-10 col-10 col-sm-10">
+            <div className="col-md-10 col-10 col-sm-12">
               <Searchbar />
             </div>
             <div className="col-md-2 d-flex align-items-center justify-content-left">
@@ -42,30 +53,55 @@ const Homepage = () => {
         <div className="home__hero row">
           <ItemCategoryWrapper className="home__hero--right col-md-3 col-3 col-sm-12">
             <CategoryItem
-              categoryIcon={`${"bi bi-twitter"}`}
+              categoryIcon={womenIcon}
               title="woman's"
-              chevronRight={cartIcon}
+              chevronRight={chevron}
             />
             <CategoryItem
-              categoryIcon={cartIcon}
-              title="woman's"
-              chevronRight={cartIcon}
+              categoryIcon={menIcon}
+              title="Men's"
+              chevronRight={chevron}
             />
             <CategoryItem
-              categoryIcon={cartIcon}
-              title="woman's"
-              chevronRight={cartIcon}
+              categoryIcon={kids}
+              title="Kids"
+              chevronRight={chevron}
             />
             <CategoryItem
-              categoryIcon={cartIcon}
-              title="woman's"
-              chevronRight={cartIcon}
+              categoryIcon={accessories}
+              title="accessories"
+              chevronRight={chevron}
             />
             <CategoryItem
-              categoryIcon={cartIcon}
-              title="woman's"
-              chevronRight={cartIcon}
+              categoryIcon={clothes}
+              title="clothing"
+              chevronRight={chevron}
             />
+            <CategoryItem
+              categoryIcon={watches}
+              title="watches"
+              chevronRight={chevron}
+            />{" "}
+            <CategoryItem
+              categoryIcon={jewelleries}
+              title="jewelleries"
+              chevronRight={chevron}
+            />
+            <CategoryItem
+              categoryIcon={health}
+              title="health and beauty"
+              chevronRight={chevron}
+            />
+            <CategoryItem
+              categoryIcon={sports}
+              title="sports"
+              chevronRight={chevron}
+            />
+            <hr />
+            <div className="moreCat">
+              <p>More Categories</p>
+              <i class="bi bi-plus-lg"></i>
+            </div>
           </ItemCategoryWrapper>
           <div className="home__hero--right col-md-8 ms-5 col-sm-12 slider">
             <SimpleSlider />
