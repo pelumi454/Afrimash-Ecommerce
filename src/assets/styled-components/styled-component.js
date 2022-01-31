@@ -60,7 +60,7 @@ margin-top: 4.6rem;
 `
 // Newsletter 
 export const InputContainer = styled.div`
-  width: 539px;
+  width: 100%;
   height: 53px;
   background: #fffefe;
   border-radius: 30px;
@@ -81,7 +81,6 @@ export const SuscribeBtn = styled.div`
   font-weight: bold;
   font-size: 18px;
   margin-right: 0.5rem;
-  /* margin-top: .2rem */
   text-align: center;
   padding-top: .5rem;
 `;

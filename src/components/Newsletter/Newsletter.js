@@ -27,9 +27,9 @@ const Newsletter = () => {
         <div className="newsletter__social-media-container">
           <p className="newsletter__follow-us-text">Follow us</p>
           <div className="newsletter__icons">
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter social-media-icon"></i>
+            <i class="bi bi-facebook social-media-icon"></i>
+            <i class="bi bi-instagram  social-media-icon"></i>
           </div>
         </div>
       </div>

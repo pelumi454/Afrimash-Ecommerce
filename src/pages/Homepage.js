@@ -66,7 +66,7 @@ const Homepage = () => {
               chevronRight={cartIcon}
             />
           </ItemCategoryWrapper>
-          <div className="home__hero--right col-md-8 ms-5 col-sm-12">
+          <div className="home__hero--right col-md-8 ms-5 col-sm-12 slider">
             <SimpleSlider />
           </div>
         </div>

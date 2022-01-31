@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import heroBg from "../../assets/images/hero-phone-bg.svg";
-// import { CustomContainer } from "../../assets/styled-components/styled-component";
 
 export default function SimpleSlider() {
   var settings = {
