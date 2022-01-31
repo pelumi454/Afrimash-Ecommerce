@@ -58,4 +58,31 @@ margin-left: 4rem;
 export const EcommerceZoneWrapper = styled.div`
 margin-top: 4.6rem;
 `
+// Newsletter 
+export const InputContainer = styled.div`
+  width: 539px;
+  height: 53px;
+  background: #fffefe;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.37rem;
+  margin-top: .2rem;
+`;
+
+export const SuscribeBtn = styled.div`
+  width: 160px;
+  height: 41px;
+  background: #ef5e0d;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-family: Amiko;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 0.5rem;
+  /* margin-top: .2rem */
+  text-align: center;
+  padding-top: .5rem;
+`;
 

@@ -1,5 +1,17 @@
 .newsletter {
   background: linear-gradient(91.62deg, #ef5e0d 26.96%, #f03800 85.31%);
+  height: 265px;
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  &__sign-up-body {
+    //   margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   &__header {
     font-family: Amiko;
     font-size: 24px;
@@ -14,17 +26,7 @@
     letter-spacing: -0.005em;
     color: #ffffff;
   }
-  &__input-container {
-    width: 539px;
-    height: 53px;
-    background: #fffefe;
-    border-radius: 30px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 0.37rem;
-    // padding-left: .3rem;
-    // padding-right: .3rem;
-  }
+
   &__input {
     border: none;
     outline: none;
@@ -37,27 +39,22 @@
     line-height: 29px;
     color: rgba(154, 154, 154, 0.74);
   }
-  &__suscribe-btn {
-    width: 160px;
-    height: 41px;
-    background: #ef5e0d;
-    border-radius: 30px;
-    border: none;
-    color: #fff;
-    font-family: Amiko;
-    font-weight: bold;
-    font-size: 18px;
-    margin-right: 0.5rem;
-  }
   &__follow-us-text {
     font-family: Amiko;
     font-size: 14px;
     line-height: 29px;
     color: #ffffff;
+    margin: 0;
+  }
+  &__social-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .bi {
-    border-radius: 50%;
-    background: rgba(6, 6, 6, 0.08);
-    color: #fff;
+  background: rgba(6, 6, 6, 0.08);
+  color: #fff;
+  border-radius: 50%;
+ padding: 3px 5px;
 }
