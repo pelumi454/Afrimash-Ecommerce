@@ -1,5 +1,15 @@
+// @import "../../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
 .home {
   padding-top: 2.5rem;
+  // @include media-breakpoint-down(lg) {
+  //   width: 350px;
+  // }
+
+  @media screen and (min-width: 2000px) {
+    width: 1440px;
+    margin: auto;
+  }
   &__header {
     width: 72%;
   }
