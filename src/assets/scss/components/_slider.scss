@@ -1,7 +1,6 @@
 .slider-section {
   background: rgba(190, 17, 233, 0.24);
   border-radius: 20px;
-  margin-top: 60px;
   .slider-text-wrap {
     padding: 75px 35px 30px 79px;
   }
@@ -23,7 +22,26 @@
     color: #412c4e;
   }
   .slider-image {
-    padding: 1.5rem 2.3rem 1.5rem 0;
+    padding: .7rem 2.3rem 1.5rem 0;
     width: 347px;
   }
+}
+.slider-image-wrap{
+  margin-top: 2rem;
+}
+
+.slick-dots li button::before {
+  font-size: 10px;
+  color: #EF5E0D;
+  margin-top: 1rem;
+
+}
+
+.slick-dots li.slick-active button::before {
+  color: #EF5E0D;
+
+}
+
+.slick-slider {
+  margin-top: 3.94rem;
 }

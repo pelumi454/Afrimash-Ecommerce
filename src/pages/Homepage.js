@@ -5,6 +5,7 @@ import electronics from "../assets/images/electronics-category.svg";
 import fashion from "../assets/images/fashion-category.svg";
 import phone from "../assets/images/phone-category.svg";
 import beauty from "../assets/images/beauty-category.svg";
+import women from "../assets/images/women.png";
 import iphone11 from "../assets/images/iphone11.svg";
 import refrigerator from "../assets/images/refrigerator.svg";
 import fullrating from "../assets/images/fullrate.svg";
@@ -41,7 +42,7 @@ const Homepage = () => {
         <div className="home__hero row">
           <ItemCategoryWrapper className="home__hero--right col-md-3 col-3 col-sm-12">
             <CategoryItem
-              categoryIcon={cartIcon}
+              categoryIcon={`${"bi bi-twitter"}`}
               title="woman's"
               chevronRight={cartIcon}
             />
@@ -197,7 +198,7 @@ const Homepage = () => {
       <div>
         <Newsletter />
       </div>
-        <Footer/>
+      <Footer />
     </div>
   );
 };

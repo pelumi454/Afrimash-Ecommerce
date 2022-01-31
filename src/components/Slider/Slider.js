@@ -1,6 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
 import heroBg from "../../assets/images/hero-phone-bg.svg";
+import slider3 from "../../assets/images/slider3.png";
+import slider4 from "../../assets/images/Slider4.jpg";
+
+
+
+
+
 
 export default function SimpleSlider() {
   var settings = {
@@ -11,7 +18,7 @@ export default function SimpleSlider() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="slick-slider">
       <div className="slider-section">
         <div className=" d-flex ">
           <div className="slider-text-wrap">
@@ -24,19 +31,13 @@ export default function SimpleSlider() {
         </div>
       </div>
       <div>
-        <h3>2</h3>
+        <img src={slider4} alt="" className="slider-image" />
       </div>
       <div>
-        <h3>3</h3>
+        <img src={slider3} alt="" className="slider-image" />
       </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
+      <div className="slider4">
+        <img src={slider4} alt="" className="slider-image" />
       </div>
     </Slider>
   );
